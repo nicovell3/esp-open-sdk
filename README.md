@@ -1,3 +1,16 @@
+forked version
+--------------
+
+This repository is just forked to add the Dockerfile and to make it easier to work.
+
+Just run the following commands to be able to compile with it:
+
+```
+git clone --recursive https://github.com/nicovell3/esp-open-sdk
+cd esp-open-sdk
+docker build -t esp-open-sdk .
+```
+
 esp-open-sdk
 ------------
 
